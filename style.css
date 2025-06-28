@@ -1,0 +1,17 @@
+body {
+  background: black;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2em;
+}
+
+#terminal {
+  white-space: pre-wrap;
+  font-size: 1.1em;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  100% { opacity: 0.95; }
+}
